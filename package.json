@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --passWithNoTests",
+    "build": "echo \"Build step (add real build command here)\""
   },
   "author": "",
   "license": "ISC",
@@ -18,5 +19,8 @@
     "express": "^4.21.2",
     "jsonwebtoken": "^9.0.2",
     "mongoose": "^8.5.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
